@@ -1,0 +1,183 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.nav {
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+
+.logo {
+    width: 15%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid gray; */
+
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid darkcyan; */
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.two {
+    width: 100%;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.left {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* border: 2px solid royalblue; */
+    padding-left: 50px;
+    background: url(Sechelles-andBeyond-1536x864.jpg);
+    flex-direction: column;
+}
+
+.left h5 {
+    color: #7824ff;
+    font-size: 20px;
+    color: white;
+}
+
+.left h1 {
+
+    font-size: 65px;
+    width: 39%;
+    color: white;
+
+}
+
+.left p {
+    color: white;
+}
+
+.second-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    /* border: 5px solid forestgreen; */
+    /* flex-direction: column; */
+}
+
+.second-section h5 {
+    color: #7824ff;
+    font-size: 30px;
+}
+
+.second-section h1 {
+    font-size: 30px;
+    width: 100%;
+}
+
+.second-section p {
+    font-size: 18px;
+    width: 70%;
+}
+
+.left2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+    /* border: 2px solid red; */
+    flex-direction: column;
+}
+
+.right {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid gray; */
+}
+
+/*  */
+.tree {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    /* border: 2px solid hotpink; */
+    /* flex-direction: column; */
+}
+
+.right2 h5 {
+    color: #7824ff;
+    font-size: 30px;
+}
+
+.right2 h1 {
+    font-size: 25px;
+    width: 85%;
+    padding-left: 20px;
+}
+.right2 p {
+    font-size: 18px;
+    width: 70%;
+}
+
+.left3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid yellowgreen; */
+
+}
+
+.right2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    /* border: 5px solid gray; */
+    flex-direction: column;
+    
+}
