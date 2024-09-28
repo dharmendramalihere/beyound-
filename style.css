@@ -7,22 +7,26 @@
 
 .nav {
     width: 100%;
-    min-height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* border: 2px solid red; */
-
+    border: 2px solid red;
+    background-color: red;
 }
 
 .logo {
-    width: 15%;
-    min-height: 100px;
+    width: 17%;
+    height: 60px;
+    /* border: 2px solid forestgreen; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 3px solid gray; */
 
+}
+
+.logo h1 {
+    font-size: 22px;
 }
 
 .logo img {
@@ -31,10 +35,11 @@
 
 .nav ul {
     width: 40%;
+    /* border: 2px solid chocolate; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* border: 1px solid darkcyan; */
+
 }
 
 .nav ul li {
@@ -44,84 +49,66 @@
 .nav ul li a {
     color: black;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 19px;
 }
 
-.two {
-    width: 100%;
-    min-height: 100vh;
-    /* border: 2px solid red; */
+.icon {
+    width: 150px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
+    border: 2px solid red;
+    gap: 60px;
+}
+
+.fa-phone {
+    font-size: 30px;
+}
+
+.fa-user {
+    font-size: 30px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid darkmagenta;
+    background: url(Black-White-Cat-eating-1080x675.jpg);
+    background-size: cover;
 }
 
 .left {
     width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    /* border: 2px solid royalblue; */
-    padding-left: 50px;
-    background: url(Sechelles-andBeyond-1536x864.jpg);
-    flex-direction: column;
-}
-
-.left h5 {
-    color: #7824ff;
-    font-size: 20px;
-    color: white;
-}
-
-.left h1 {
-
-    font-size: 65px;
-    width: 39%;
-    color: white;
-
-}
-
-.left p {
-    color: white;
-}
-
-.second-section {
-    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 40px;
-    /* border: 5px solid forestgreen; */
-    /* flex-direction: column; */
-}
-
-.second-section h5 {
-    color: #7824ff;
-    font-size: 30px;
-}
-
-.second-section h1 {
-    font-size: 30px;
-    width: 100%;
-}
-
-.second-section p {
-    font-size: 18px;
-    width: 70%;
-}
-
-.left2 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: start;
-    /* border: 2px solid red; */
+    /* border: 3px solid darkgoldenrod; */
+    background-color: rgb(0, 0, 0, 0.349);
+    gap: 30px;
     flex-direction: column;
+}
+
+.left h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.left p {
+    font-size: 19px;
+    color: white;
+}
+
+.left button {
+    padding: 15px 16px;
+    border: none;
+    font-size: 23px;
+    color: orange;
+    border-radius: 20px;
 }
 
 .right {
@@ -130,54 +117,75 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 3px solid gray; */
+    /* border: 3px solid forestgreen; */
+    background-color: rgb(0, 0, 0, 0.349);
 }
 
-/*  */
-.tree {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 40px;
-    /* border: 2px solid hotpink; */
-    /* flex-direction: column; */
-}
-
-.right2 h5 {
-    color: #7824ff;
-    font-size: 30px;
-}
-
-.right2 h1 {
-    font-size: 25px;
-    width: 85%;
-    padding-left: 20px;
-}
-.right2 p {
-    font-size: 18px;
+.right img {
     width: 70%;
 }
 
-.left3 {
+.second {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 3px solid yellowgreen; */
-
+    border: 1px solid greenyellow;
 }
 
-.right2 {
+.cards {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    gap: 20px;
     align-items: center;
-    /* border: 5px solid gray; */
+    /* border: 4px solid greenyellow; */
+    gap: 10px;
+    background-color: #ece5e5;
+}
+
+.card-item {
+    width: 330px;
+    height: 450px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px ;
     flex-direction: column;
-    
+    box-shadow: 4px 4px 4px 4px rgba(17, 9, 9, 0.596);
+    background-color: white;
 }
+.card-item h2{
+    font-size: 140%;
+}
+.card-item p{
+    font-size: 30px;
+}
+.card-item button{
+   padding: 12px 40px;
+   border: none;
+   background-color: red;
+   font-size: 19px;
+   border-radius: 30px;
+}
+.tree{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px red;
+}
+.imgs{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid forestgreen;
+    /* flex-direction: column;/
+
+}
+
