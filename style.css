@@ -9,183 +9,156 @@
     width: 100%;
     height: 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-color: black;
     align-items: center;
-    border: 2px solid red;
-    background-color: red;
+    /* border: 2px solid red; */
 }
 
-.logo {
-    width: 17%;
+.div1 {
+    width: 33%;
     height: 60px;
-    /* border: 2px solid forestgreen; */
+    /* border: 2px solid gold; */
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.logo h1 {
-    font-size: 22px;
-}
+.div1 ul {
 
-.logo img {
-    width: 100px;
-}
-
-.nav ul {
-    width: 40%;
+    width: 90%;
     /* border: 2px solid chocolate; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
+
 }
 
-.nav ul li {
+.div1 ul li {
     list-style: none;
+
 }
 
-.nav ul li a {
-    color: black;
+.div1 ul li a {
+    color: white;
     text-decoration: none;
     font-size: 19px;
+
 }
 
-.icon {
-    width: 150px;
+.div2 {
+    width: 33%;
     height: 60px;
+    /* border: 2px solid gold; */
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
-    gap: 60px;
 }
 
-.fa-phone {
-    font-size: 30px;
-}
-
-.fa-user {
-    font-size: 30px;
-}
-
-.main {
-    width: 100%;
-    height: 100vh;
+.div3 {
+    width: 33%;
+    height: 60px;
+    /* border: 2px solid gold; */
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid darkmagenta;
-    background: url(Black-White-Cat-eating-1080x675.jpg);
-    background-size: cover;
+    gap: 20px;
 }
 
-.left {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 3px solid darkgoldenrod; */
-    background-color: rgb(0, 0, 0, 0.349);
-    gap: 30px;
-    flex-direction: column;
-}
 
-.left h1 {
-    font-size: 40px;
+.span1 {
+    font-style: italic;
     color: white;
 }
 
-.left p {
-    font-size: 19px;
+.div2 h1 {
     color: white;
 }
 
-.left button {
-    padding: 15px 16px;
+.button1 {
+    padding: 10px 20px;
     border: none;
-    font-size: 23px;
-    color: orange;
-    border-radius: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
 }
 
-.right {
+.button2 {
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.one {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 3px solid forestgreen; */
-    background-color: rgb(0, 0, 0, 0.349);
-}
-
-.right img {
-    width: 70%;
-}
-
-.second {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid greenyellow;
-}
-
-.cards {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 4px solid greenyellow; */
-    gap: 10px;
-    background-color: #ece5e5;
-}
-
-.card-item {
-    width: 330px;
-    height: 450px;
-    border: 2px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px ;
+    border: 4px solid darkgoldenrod;
+    background-color: #131217;
     flex-direction: column;
-    box-shadow: 4px 4px 4px 4px rgba(17, 9, 9, 0.596);
-    background-color: white;
+    gap: 20px;
 }
-.card-item h2{
-    font-size: 140%;
+
+.one h1 {
+    color: white;
+    width: 60%;
+    font-size: 60px;
+    /* border: 2px solid red; */
 }
-.card-item p{
-    font-size: 30px;
+
+.one p {
+    color: white;
+    width: 45%;
+    font-size: 18px;
+    text-align: center;
 }
-.card-item button{
-   padding: 12px 40px;
-   border: none;
-   background-color: red;
-   font-size: 19px;
-   border-radius: 30px;
-}
-.tree{
+
+.two{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 3px red;
+    border: 3px solid green;
+    background-color: #131217;
 }
-.imgs{
+.left{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    border: 3px solid fuchsia;
+}
+.left h5{
+    color: white;
+}
+
+.left h1{
+    color: white;
+    font-size: 50px;
+    
+}
+.left p{
+    color: white;
+    width: 80%;
+    font-size: 18px;
+}
+
+.right{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid forestgreen;
-    /* flex-direction: column;/
-
+    border: 3px solid darkseagreen;
 }
-
